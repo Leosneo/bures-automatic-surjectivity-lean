@@ -1,0 +1,6 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 88.29750475000765,
+  "lean_source_files": 21,
+  "scope": "All 21 source modules; unconditional automatic surjectivity is not proved. Final surjectivity theorem assumes trace preservation."
+}

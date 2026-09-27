@@ -1,0 +1,183 @@
+'Bures.matrixSqrt_mul_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.matrixSqrt_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exact_problem_equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.sandwich_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.distance_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.hermitian_commutator_iff_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BuresSupport.compact_isometry_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BuresSupport.surjective_of_preserves_compact_sublevels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BuresSupport.exists_isometry_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BuresSupport.radial_scale_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BuresSupport.isCompact_psd_trace_sublevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.surjective_of_semidefinite_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.posDef_iff_fidelity_separates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.posDef_image_iff_of_fidelity_bijection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.distance_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.continuous_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.sylvester_common_commutant_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.hermitian_common_commutant_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.radial_tangent_of_common_commutant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.posDef_sylvester_existsUnique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.posDef_hermitian_sylvester_existsUnique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.radicand_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.distance_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.hasFDerivAt_matrix_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.fidelityRoot_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.fidelityRoot_smul_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.distance_scale_pair_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.distance_scale_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.differentiableAt_squaredBuresHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.squaredBuresHermitian_eq_distance_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.tr_mul_le_of_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.fidelityRoot_variational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.differentiableAt_of_preserves_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.contDiffAt_one_of_preserves_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.differentiableAt_anchoredSquaredDistances' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.distance_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.frobenius_gram_difference_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.frobenius_sub_le_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psdDistance_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.radicand_nonneg_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.preserves_fidelity_of_psdZero_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.aligned_segment_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.optimal_alignment_invertible_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.optimal_alignment_posDef_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.invertible_factor_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.distance_le_frobenius_factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exists_constant_speed_geodesic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.hasFDerivAt_hermitianSandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.hasFDerivAt_squaredBuresHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.squaredBuresDerivative_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exists_bijective_anchor_jacobian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.commutator_horizontal_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.all_brackets_horizontal_iff_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.gram_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.gram_derivative_horizontal_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.horizontal_energy_eq_sylvester' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.horizontal_radial_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.horizontal_vertical_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] abel_nf
+'Bures.four_point_non_euclidean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.hilbert_four_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.no_hilbert_embedding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exists_metric_geodesic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.maps_constant_speed_geodesic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.metric_midpoint_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.maps_metric_midpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.positiveDefiniteMetricSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exists_frobenius_le_operator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exists_operator_le_frobenius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psdDistance_eq_zero_imp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psdDistance_scale_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.tendsto_psdScale_sq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.four_point_non_euclidean_at_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.four_point_non_euclidean_near_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] abel_nf
+Try this:
+  [apply] abel_nf
+../BuresFourPointGeneral.lean:68:23: warning: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  simp only [ite_true,̵ ̵z̵e̵r̵o̵_̵a̵d̵d̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+../BuresFourPointGeneral.lean:115:39: warning: This simp argument is unused:
+  (i0_ne_i1 n h).symm
+
+Hint: Omit it from the simp argument list.
+  simp [p0, p2, e_mul_e, i0_ne_i1 n h,̵ ̵(̵i̵0̵_̵n̵e̵_̵i̵1̵ ̵n̵ ̵h̵)̵.̵s̵y̵m̵m̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+../BuresFourPointGeneral.lean:115:60: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+../BuresFourPointGeneral.lean:119:25: warning: This simp argument is unused:
+  add_mul
+
+Hint: Omit it from the simp argument list.
+  simp [p0, p3, mul_add, a̵d̵d̵_̵mul,̵ ̵m̵u̵l̵_sub, sub_mul, e_mul_e,
+  ̵  ̵ ̵ ̵i0_ne_i1 n h, (i0_ne_i1 n h).symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+../BuresFourPointGeneral.lean:125:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+../BuresFourPointGeneral.lean:129:43: warning: This simp argument is unused:
+  sub_mul
+
+Hint: Omit it from the simp argument list.
+  simp [p1, p3, mul_add, add_mul, mul_sub, s̵u̵b̵_̵m̵u̵l̵,̵ ̵e_mul_e,
+  ̵  ̵ ̵ ̵i0_ne_i1 n h, (i0_ne_i1 n h).symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+../BuresFourPointGeneral.lean:130:39: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+../BuresFourPointGeneral.lean:134:43: warning: This simp argument is unused:
+  sub_mul
+
+Hint: Omit it from the simp argument list.
+  simp [p2, p3, mul_add, add_mul, mul_sub, s̵u̵b̵_̵m̵u̵l̵,̵ ̵e_mul_e,
+  ̵  ̵ ̵ ̵i0_ne_i1 n h, (i0_ne_i1 n h).symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Bures.four_point_non_euclidean_any_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.no_hilbert_embedding_any_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.squared_speed_of_differentiable_optimal_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.continuous_of_preserves_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.isEmbedding_of_preserves_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psdMetricSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.matrixSqrt_unitaryConj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psdDistance_unitaryConj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.rankOne_psd_unitary_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.euclidean_midpoint_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.tr_mul_eq_of_posDef_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.unique_fidelity_alignment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.unique_distance_alignment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.frobenius_parallelogram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.frobenius_midpoint_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.metric_midpoint_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.metric_midpoint_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.four_point_defect_le_six_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.no_hilbert_model_below_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psdProperSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psdCompleteSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.isometry_pdInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.distance_eq_optimalLift_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exists_psd_isometric_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.surjective_of_preserves_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.horizontal_overlap_eventually_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.horizontalGramPoint_squared_speed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.differentiableAt_optimalLiftHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exists_psd_isometric_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.surjective_of_preserves_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exists_horizontal_curve_speed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.radial_horizontal_curve_speed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.differentiableAt_optimalDifferencePair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.distance_eq_norm_optimalDifferencePair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.optimalDifferencePair_fderiv_diagonal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.optimalDifferencePair_tangent_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.optimalLiftHermitian_fderiv_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.optimalDifferenceTangent_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.linearIndependent_of_pairwise_norm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.optimalDifferencePair_frobenius_remainder_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.frobeniusDistance_tangent_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exists_norm_le_optimalDifferenceTangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exists_local_coordinate_le_bures' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.horizontal_metric_homogeneity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.scaledImagePD_distance_pair_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.scaledImagePD_distance_apex_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.scaledImageHermitian_norm_bigO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.tendsto_scaledImageHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psd_isometry_scaled_eventually_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.scaledImage_pair_tangent_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.scaledTangentModel_squared_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psd_isometry_apex_not_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.four_point_defect_le_six_error_any_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psd_isometry_apex_not_posDef_any_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psd_isometry_apex_not_diagonal_rank_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.psd_isometry_apex_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.automatic_surjectivity_two' depends on axioms: [propext, Classical.choice, Quot.sound]

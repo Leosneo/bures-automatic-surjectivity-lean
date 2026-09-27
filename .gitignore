@@ -1,0 +1,12 @@
+# Lean/Lake build output and local dependency checkout
+.lake/
+mathlib/
+*.olean
+*.ilean
+*.c
+*.o
+*.a
+*.so
+*.dylib
+*.trace
+lake-manifest.json

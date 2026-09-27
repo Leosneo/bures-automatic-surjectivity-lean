@@ -1,0 +1,8 @@
+'Bures.matrixSqrt_mul_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.matrixSqrt_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.exact_problem_equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.sandwich_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.distance_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bures.hermitian_commutator_iff_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BuresSupport.compact_isometry_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BuresSupport.surjective_of_preserves_compact_sublevels' depends on axioms: [propext, Classical.choice, Quot.sound]
